@@ -630,7 +630,7 @@ At this point, you can choose to simply allow users to create all phonebook entr
 
 ### Error handling
 
-If we try to visit the URL of a note with an id that does not actually exist e.g. <http://localhost:3001/api/notes/5c41c90e84d891c15dfa3431> where <i>5a3b80015b6ec6f1bdf68d</i> is not an id stored in the database, then the browser will simply get "stuck" since the server never responds to the request.
+If we try to visit the URL of a note with an id that does not actually exist e.g. <http://localhost:3001/api/notes/5c41c90e84d891c15dfa3431> where <i>5c41c90e84d891c15dfa3431</i> is not an id stored in the database, then the browser will simply get "stuck" since the server never responds to the request.
 
 We can see the following error message appear in the logs for the backend:
 
